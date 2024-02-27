@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+}
+
+
+
+:root{
+  --button-width: 120px;
+  --button-height: 40px;
+  --button-border-radius: 15px;
+  --button-text-size: 16px;
+  --button-font-family: "Poppins";
+  --button-font-weight: 400;
+  --button-border-width: 1px;
+  
+}

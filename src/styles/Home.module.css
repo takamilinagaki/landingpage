@@ -1,0 +1,118 @@
+
+.body{
+    background-color: #F5F5F5;
+    padding: 30px 100px;
+    max-width: 1280px;
+}
+
+.homepage_contents{
+    width: 485px;
+}
+
+
+.homepage_topSection{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 80px 40px
+}
+
+.homepage_title{
+    font-family: "Kanit";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.homepage_subTitle{
+    font-family: "Poppins";
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.button{
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: var(--button-border-radius);
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    font-size: var(--button-text-size);
+    border-width: var(--button-border-width);
+}
+
+
+.newsletter_section{
+    padding-top: 70px;
+}
+
+.subscription_title{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.subscription_input{
+    width: 250px;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 1px;
+    background-color: #F5F5F5;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+    color: #AFAFAF;
+    padding-left: 20px;
+}
+
+.subscription_button{
+    width: 135px;
+    height: 64px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    background-color: #F5F5F5;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: -1px;
+}
+
+.subscription_button:hover{
+    background-color: rgb(144, 78, 85,0.3);
+    transition: 0.3s;
+}
+
+
+.homepage_informationSection{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 100px 40px
+}
+
+
+.homepage_section_title{
+    text-align: center;
+    font-family: "Kanit";
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5;
+}
+
+.homepage_section_subTitle{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.homepage_image1{
+    width: 450px;
+}
+
+.homepage_pricingTags{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}

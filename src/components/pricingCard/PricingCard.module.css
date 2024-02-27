@@ -1,0 +1,49 @@
+
+.priceCardBody{
+    width: 250px;
+    height: 460px;
+    border-radius: 1px;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 100px;
+}
+
+.priceCards{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.priceCardTitle{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: center;
+}
+
+.priceCardPrice{
+    font-size: 35px;
+    font-family: "Kanit";
+    font-weight: 500;
+    text-align: center;
+}
+
+.priceCardList{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.button{
+    font-size: 16px;
+    font-family: "Poppins";
+    font-weight: 300;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
