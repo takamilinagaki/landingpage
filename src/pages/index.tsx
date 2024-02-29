@@ -5,10 +5,17 @@ import image1 from "../../public/homepage.svg"
 import Footer from "@/components/footer";
 import Spline from "@splinetool/react-spline";
 import PricingCards from "../components/pricingCard/index"
+import Head from "next/head";
 
 export default function Home() {
   return (
     <main>
+      
+      <Head>
+        <title>Tune Trove</title>
+        <link rel="icon" href="/favicon.svg"/>
+      </Head>
+
       <div className={styles.body}>
         <div className={styles.navBar}>
           <NavBar />
