@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 200px;
 }
 .footerLeft{
     display: flex;
@@ -38,7 +38,7 @@
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 300;
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 .button{

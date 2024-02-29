@@ -10,9 +10,13 @@ export default function Home() {
   return (
     <main>
       <div className={styles.body}>
-        <NavBar />
+        <div className={styles.navBar}>
+          <NavBar />
+        </div>
         <hr style={{
-          marginTop: '20px'}}/>
+          marginTop: '30px',
+          width: '85%'
+          }}/>
         <div className={styles.homepage_topSection}>
           <div className={styles.homepage_contents}>
               <h1 className={styles.homepage_title}>Explore the world of Music</h1>
@@ -42,9 +46,9 @@ export default function Home() {
 
         <div className={styles.homepage_informationSection}>
           <div>
-            <Spline scene="https://prod.spline.design/FkTiqO-y77lKh-oo/scene.splinecode" />
+            <Spline scene="https://prod.spline.design/P4-EClE2QYEanbDC/scene.splinecode" />
           </div>
-            <div>
+            <div className={styles.homepage_informationSectionTexts}>
               <h3 className={styles.homepage_section_title}
                 style={{
                   textAlign: 'left'

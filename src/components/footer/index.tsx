@@ -8,7 +8,8 @@ export default function Footer(){
         <>
         <main className={styles.footer_main}>
             <hr style={{
-                marginBottom: '20px'
+                marginBottom: '20px',
+                width: '85%'
             }}/>
             <div className={styles.footer_contents}>
                 <div className={styles.footerLeft}>
@@ -36,7 +37,8 @@ export default function Footer(){
                 </div>
             </div>
             <hr style={{
-                marginTop: '30px'
+                marginTop: '30px',
+                width: '85%'
             }}/>
             <p className={styles.footer_copyright}>© 2024 tune trove. All rights reserved</p>
         </main>

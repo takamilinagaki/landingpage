@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: (30px 10px 4px #4444dd);
+    padding: 0px 100px;
     /* drop-shadow(30px 10px 4px #4444dd); */
 }
 

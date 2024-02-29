@@ -9,7 +9,7 @@ export default function PricingCards(){
     return(
         <main className={styles.priceCards}>
             {data && 
-                data.map((e, index) => {
+                data.map((e) => {
                     return(
                         <div className={styles.priceCardBody}
                              style={{
@@ -17,7 +17,13 @@ export default function PricingCards(){
                              }}>
                             <h1 className={styles.priceCardTitle}>{e.priceCardTitle}</h1>
                             <h2 className={styles.priceCardPrice}>{e.priceCardPrice}</h2>
-                            <li className={styles.priceCardList}>{e.priceCardDetail1}</li>
+                                <div style={{
+                                    paddingLeft: '80px'
+                                }}>
+                                    <Spline scene={e.spline} />
+                                </div>
+                            <li className={styles.priceCardList}
+                            style={{paddingTop: '40px'}}>{e.priceCardDetail1}</li>
                             <li className={styles.priceCardList}>{e.priceCardDetail2}</li>
                             <li className={styles.priceCardList}>{e.priceCardDetail3}</li>
 
